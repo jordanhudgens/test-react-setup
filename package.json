@@ -55,7 +55,6 @@
     "bootstrap": "^4.0.0-alpha.5",
     "css-loader": "^0.28.4",
     "express": "^4.16.2",
-    "json-loader": "^0.5.4",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
     "react": "^16.2.0",
