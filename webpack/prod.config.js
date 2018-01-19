@@ -34,7 +34,7 @@ module.exports = webpackMerge(webpackCommon, {
 
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
