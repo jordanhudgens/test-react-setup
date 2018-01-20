@@ -41,11 +41,9 @@ module.exports = webpackMerge(webpackCommon, {
             {
               loader: 'css-loader',
               options: {
-                modules: true,
                 minimize: true,
                 sourceMap: true,
-                importLoaders: 2,
-                localIdentName: '[name]__[local]'
+                importLoaders: 2
               }
             },
             {
